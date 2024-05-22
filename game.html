@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequency Golems Dice Game - Play</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="pulsate-game">
+    <header>
+        <h1 class="neon-text" id="header-text">Frequency Golems Dice Game</h1>
+        <a href="http://gfichingroulette.s3-website.us-east-2.amazonaws.com/" target="_blank">
+            <img src="https://i.imgur.com/HtxJil7.jpeg" class="wiggle-image small-link" alt="Special Link">
+        </a>
+        <a href="https://www.cnn.com/us/houston-rapper-viper-lee-carter-arrest-cec/index.html" target="_blank" class="top-right-link">
+            <img src="https://i.imgur.com/g8zVpsE.png" class="small-link" alt="News Link">
+        </a>
+    </header>
+    <main>
+        <div class="game-board">
+            <div id="discarded-dice" class="dice-container discarded">
+                <img src="https://i.imgur.com/pXhp3hy.jpeg" alt="Discarded Dice Image" class="board-image">
+            </div>
+            <div id="rolling-area" class="dice-container rolling">
+                <img src="https://i.imgur.com/iR5CuJO.png" alt="Middle Image" class="board-image">
+                <div id="dice-area"></div>
+            </div>
+            <div id="kept-dice" class="dice-container kept">
+                <img src="https://i.imgur.com/e2XyrKR.png" alt="Bottom Image" class="board-image">
+            </div>
+        </div>
+        <button id="roll-button">Roll Dice</button>
+        <div id="score-display">Score: 0</div>
+        <div id="game-status">Game On</div>
+        <div id="weird-message" class="weird-message"></div>
+        <img id="bust-image" src="https://raw.githubusercontent.com/Domusgpt/Dicegame/main/file-t8QWIfZqwZLGzkvQa3Lc1z5X.webp" style="display:none;">
+        <img id="perfect-roll-image" src="https://raw.githubusercontent.com/Domusgpt/Dicegame/main/file-qFBWUO3XhI2GTMSAFLDGjdGI.jpg" style="display:none;">
+        <a href="https://www.paypal.com/donate?business=phillips.paul.email%40gmail.com&currency_code=USD&amount=5" target="_blank" id="tip-golems">
+            <img src="https://i.imgur.com/e2XyrKR.png" alt="Tip the Golems" class="tip-golems-image">
+        </a>
+        <button id="reset-button">Reset Game</button>
+        <button id="glasses-button" class="glasses-button">🕶️</button>
+        <img src="https://media.giphy.com/media/zg5STezidLaZW/giphy.gif" class="game-gif small-gif" alt="Giphy GIF">
+    </main>
+    <a id="secret-link" href="jackpot.html" target="_blank">
+        <img src="https://i.imgur.com/qGVUcpm.png" class="secret-link-image" style="display:none;">
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>
